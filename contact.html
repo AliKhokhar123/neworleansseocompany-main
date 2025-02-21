@@ -377,6 +377,10 @@
             separateDialCode: true, // Optional: Shows country code separately
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // For validation and formatting
         });
+
+        document.getElementById('arrow-icon').addEventListener('click', function () {
+            window.history.back();
+        });
     </script>
 </body>
 

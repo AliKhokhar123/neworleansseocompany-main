@@ -6312,7 +6312,9 @@ strong {
   font-weight: 700;
   font-family: "ClashDisplay", sans-serif;
 }
-
+.arrow-icon {
+  cursor: pointer;
+}
 
 
 /*# sourceMappingURL=style.css.map */
